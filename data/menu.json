@@ -1,0 +1,41 @@
+{
+    "sliders": [
+        {
+            "key": 0,
+            "img": "../src/assets/sliders/coffee.png"
+        },
+
+        {
+            "key": 1,
+            "img": "../src/assets/sliders/cold-coffee.png"
+        },
+
+        {
+            "key": 2,
+            "img": "../src/assets/sliders/dalgona-coffee.png"
+        },
+
+        {
+            "key": 3,
+            "img": "../src/assets/sliders/coffee-cup.png"
+        },
+
+        {
+            "key": 4,
+            "img": "../src/assets/sliders/tea.png"
+        },
+
+        {
+            "key": 5,
+            "img": "../src/assets/sliders/milkshake.png"
+        },
+
+        {
+            "key": 6,
+            "img": "../src/assets/sliders/coffee.png"
+        }
+
+    ],
+
+    "drinks": []
+}
