@@ -1,14 +1,26 @@
-import { defineConfig } from 'vite'
-import react from '@vitejs/plugin-react-swc'
-import { fileURLToPath } from 'url'
-import { dirname, resolve } from 'path'
+import { defineConfig } from 'vite';
+import react from '@vitejs/plugin-react-swc';
+import copy from 'vite-plugin-copy'; // Import the copy plugin
+
+import { fileURLToPath } from 'url';
+import { dirname, resolve } from 'path';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
 
 export default defineConfig({
   base: '/coffee_web_react/',
-  plugins: [react()],
+  plugins: [
+    react(),
+    copy({
+      targets: [
+        { src: 'data/menu.json', dest: 'dist/data' },
+        { src: 'data/text.json', dest: 'dist/data' },
+      ],
+      verbose: true,
+    }),
+  ],
+  
   build: {
     rollupOptions: {
       input: {
@@ -20,4 +32,4 @@ export default defineConfig({
       }
     }
   }
-})
+});
