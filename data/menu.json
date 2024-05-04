@@ -2,12 +2,12 @@
     "sliders": [
         {
             "key": 0,
-            "img": "public/assets/coffee-cup.png"
+            "img": "/coffee-cup.png"
         },
 
         {
             "key": 1,
-            "img": "public/assets/cold-coffee.png"
+            "img": "/assets/cold-coffee.png"
         },
 
         {
@@ -17,22 +17,22 @@
 
         {
             "key": 3,
-            "img": "public/assets/coffee-cup.png"
+            "img": "/assets/coffee-cup.png"
         },
 
         {
             "key": 4,
-            "img": "public/assets/tea.png"
+            "img": "/assets/tea.png"
         },
 
         {
             "key": 5,
-            "img": "public/assets/milkshake.png"
+            "img": "/assets/milkshake.png"
         },
 
         {
             "key": 6,
-            "img": "public/assets/coffee.png"
+            "img": "/assets/coffee.png"
         }
     ],
 
