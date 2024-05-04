@@ -1,14 +1,12 @@
 import { useEffect, useState } from "react";
 import styles from '../../styles/slider.module.css';
+import data from '../../../data/menu.json'
 
 export default function Slider() {
     const [sliders, setSliders] = useState([]);
 
     useEffect(() => {
-        fetch('../../../data/menu.json')
-            .then(response => response.json())
-            .then(data => setSliders(data.sliders))
-            .catch(error => console.error(error))
+        setSliders(data.sliders);
     }, []);
 
     return (

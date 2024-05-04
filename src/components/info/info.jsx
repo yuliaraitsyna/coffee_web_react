@@ -1,14 +1,12 @@
 import { useEffect, useState } from 'react';
 import styles from '../../styles/info.module.css'
+import data from '../../../data/text.json'
 
 export default function Info() {
     const [text, setText] = useState(null);
 
     useEffect(() => {
-        fetch('../../../data/text.json')
-            .then(response => response.json())
-            .then(data => setText(data.info_section.text))
-            .catch(error => console.error(error));
+        setText(data.info_section.text);
     }, []);
 
     return (
