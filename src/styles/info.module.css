@@ -9,8 +9,8 @@
 .img {
     background-image: url(../assets/coffee-bag.png);
     background-size:contain;
-    width:200px;
-    height:200px;
+    width:180px;
+    height:160px;
     align-self: center;
     margin-right: 5%;
 }
@@ -28,5 +28,24 @@ p {
     .img {
         width:250px;
         height:250px;
+    }
+}
+
+@media (max-width: 400px) {
+    .container {
+        flex-direction: column;
+    }
+    .img {
+        background-image: url(../assets/coffee-bag.png);
+        background-size:contain;
+        width:150px;
+        height:150px;
+        align-self: center;
+        margin-right: 5%;
+    }
+    
+    .text {
+        width:90%;
+        padding:5%;
     }
 }
