@@ -2,37 +2,37 @@
     "sliders": [
         {
             "key": 0,
-            "img": "/coffee-cup.png"
+            "img": "https://cdn-icons-png.flaticon.com/256/590/590749.png"
         },
 
         {
             "key": 1,
-            "img": "/assets/cold-coffee.png"
+            "img": "https://cdn-icons-png.flaticon.com/128/3504/3504837.png"
         },
 
         {
             "key": 2,
-            "img": "public/assets/dalgona-coffee.png"
+            "img": "https://cdn-icons-png.flaticon.com/128/1046/1046785.png"
         },
 
         {
             "key": 3,
-            "img": "/assets/coffee-cup.png"
+            "img": "https://cdn-icons-png.flaticon.com/256/1047/1047462.png"
         },
 
         {
             "key": 4,
-            "img": "/assets/tea.png"
+            "img": "https://cdn-icons-png.flaticon.com/128/5194/5194358.png"
         },
 
         {
             "key": 5,
-            "img": "/assets/milkshake.png"
+            "img": "https://cdn-icons-png.flaticon.com/128/659/659368.png"
         },
 
         {
             "key": 6,
-            "img": "/assets/coffee.png"
+            "img": "https://cdn-icons-png.flaticon.com/128/1588/1588890.png"
         }
     ],
 
