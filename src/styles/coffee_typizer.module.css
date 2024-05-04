@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+.types-container {
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-between;
+    width:100%;
+    height:auto;
+    gap:20px;
+}
+
+.types-container > div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.type-span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border:none;
+    border-radius: 50%;
+    width:100px;
+    height:100px;
+    background-color: #EAA829;
+}
+
+.type-span > img {
+    width:50px;
+    height:50px;
+    opacity: 100%;
+}
+
+@media (max-width:600px) {
+    .types-container {
+        flex-direction: column;
+        height:auto;
+    }
+}
+
+@media (min-width:800px) {
+    .type-span {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border:none;
+        border-radius: 50%;
+        width:150px;
+        height:150px;
+        background-color: #EAA829;
+    }
+    
+    .type-span > img {
+        width:80px;
+        height:80px;
+    }
+}
+
+p {
+    margin: 5%;
+    font-family: "Quicksand", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+}
+
+.fade-in {
+    animation: fadeIn 2s ease-in-out forwards;
+    opacity: 0;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}

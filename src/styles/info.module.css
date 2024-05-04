@@ -24,6 +24,12 @@ p {
     text-align: justify;
 }
 
+h2 {
+    font-family: "Quicksand", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+}
+
 @media (min-width:600px) {
     .img {
         width:250px;
@@ -47,5 +53,19 @@ p {
     .text {
         width:90%;
         padding:5%;
+    }
+}
+
+.fade-in {
+    animation: fadeIn 1s ease-in-out forwards;
+    opacity: 0;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
     }
 }
