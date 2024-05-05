@@ -4,6 +4,7 @@ import styles from './App.module.css'
 import Info from './components/info/info'
 import Slider from './components/slider/slider'
 import CoffeeTypizer from './components/coffee-typizer/coffee-typizer'
+import Footer from './components/footer/footer'
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <Slider></Slider>
         <Info></Info>
         <CoffeeTypizer></CoffeeTypizer>
+        <Footer></Footer>
       </div>
     </>
   )

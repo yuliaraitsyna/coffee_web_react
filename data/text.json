@@ -16,5 +16,9 @@
             "text": "Autumn or winter... So cold that you want something heating and comforting. A hot drink can assist you then",
             "img": "https://cdn-icons-png.flaticon.com/128/3011/3011186.png"
         }
-    ]
+    ],
+
+    "footer" : {
+        "text": "Coffee Explorer is a website created from issue of choosing what to drink. It easy to click the button and get a perfect drink and... it's recipe! Have a good experience!"
+    }
 }

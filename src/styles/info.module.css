@@ -24,10 +24,11 @@ p {
     text-align: justify;
 }
 
-h2 {
+.text > h2 {
     font-family: "Quicksand", sans-serif;
     font-optical-sizing: auto;
     font-weight: 700;
+    color:black;
 }
 
 @media (min-width:600px) {
