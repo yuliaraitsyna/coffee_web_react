@@ -13,7 +13,6 @@ export default function HomePage() {
             <Slider></Slider>
             <Info></Info>
             <CoffeeTypizer></CoffeeTypizer>
-            <Footer></Footer>
         </div>
     </>
     )
