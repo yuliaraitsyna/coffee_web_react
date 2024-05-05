@@ -1,0 +1,32 @@
+.recipe-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width:200px;
+    height:200px;
+}
+
+.recipe-container > div {
+    width:60%;
+    height: 60%;
+    border-radius: 50%;
+}
+
+.recipe-container > p {
+    color:black;
+}
+
+@media (min-width: 750px) {
+    .recipe-container {
+        width:250px;
+        height:250px;
+    }
+}
+
+@media (max-width: 400px) {
+    .recipe-container {
+        width:220px;
+        height:220px;
+    }
+}

@@ -36,5 +36,66 @@
         }
     ],
 
-    "drinks": []
+    "recipes": [
+        {
+          "title": "Espresso Macchiato",
+          "img": "https://cdn-icons-png.flaticon.com/128/6751/6751700.png",
+          "ingredients": ["Espresso", "Foamed milk"],
+          "instructions": "Pull a shot of espresso and top it with a small amount of foamed milk."
+        },
+        {
+          "title": "Cappuccino",
+          "img": "https://cdn-icons-png.flaticon.com/128/6411/6411166.png",
+          "ingredients": ["Espresso", "Steamed milk", "Foam"],
+          "instructions": "Pull a shot of espresso, steam milk until velvety with small bubbles, pour equal parts steamed milk and foam over the espresso."
+        },
+        {
+          "title": "Café Latte",
+          "img": "https://cdn-icons-png.flaticon.com/128/4465/4465347.png",
+          "ingredients": ["Espresso", "Steamed milk"],
+          "instructions": "Pull a shot of espresso, steam milk until creamy, pour steamed milk over the espresso."
+        },
+        {
+          "title": "Mocha",
+          "img": "https://cdn-icons-png.flaticon.com/128/265/265369.png",
+          "ingredients": ["Espresso", "Chocolate syrup", "Steamed milk", "Whipped cream"],
+          "instructions": "Mix chocolate syrup with espresso, steam milk, pour steamed milk over the chocolate espresso mixture, top with whipped cream."
+        },
+        {
+          "title": "Affogato",
+          "img": "https://cdn-icons-png.flaticon.com/128/6411/6411130.png",
+          "ingredients": ["Vanilla ice cream", "Espresso"],
+          "instructions": "Place a scoop of vanilla ice cream in a cup or glass, pour a shot of hot espresso over the ice cream."
+        },
+        {
+          "title": "Irish Coffee",
+          "img": "https://cdn-icons-png.flaticon.com/128/12341/12341247.png",
+          "ingredients": ["Irish whiskey", "Brown sugar", "Hot coffee", "Whipped cream"],
+          "instructions": "Combine Irish whiskey and brown sugar in a glass, fill with hot coffee, top with whipped cream."
+        },
+        {
+          "title": "Vietnamese Iced Coffee",
+          "img": "https://cdn-icons-png.flaticon.com/128/12412/12412127.png",
+          "ingredients": ["Coarsely ground coffee", "Sweetened condensed milk", "Ice"],
+          "instructions": "Brew coarsely ground coffee using a phin filter, pour sweetened condensed milk into a glass, add ice, pour brewed coffee over ice and stir."
+        },
+        {
+          "title": "Flat White",
+          "img": "https://cdn-icons-png.flaticon.com/128/15614/15614738.png",
+          "ingredients": ["Espresso", "Velvety textured milk"],
+          "instructions": "Pull a double shot of espresso, steam milk until velvety with microfoam, pour milk over the espresso."
+        },
+        {
+          "title": "Turkish Coffee",
+          "img": "https://cdn-icons-png.flaticon.com/128/4651/4651146.png",
+          "ingredients": ["Finely ground coffee", "Water", "Sugar (optional)"],
+          "instructions": "Boil water in a cezve, add finely ground coffee and sugar (if desired), stir, let it come to a boil again, pour into a cup leaving the grounds behind."
+        },
+        {
+          "title": "Iced Americano",
+          "img": "https://cdn-icons-png.flaticon.com/128/5194/5194391.png",
+          "ingredients": ["Espresso", "Cold water", "Ice"],
+          "instructions": "Pull a double shot of espresso, pour it over a glass filled with ice, top with cold water."
+        }
+      ]
 }
