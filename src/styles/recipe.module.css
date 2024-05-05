@@ -8,9 +8,17 @@
 }
 
 .recipe-container > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width:60%;
     height: 60%;
     border-radius: 50%;
+    border:solid black;
+}
+.recipe-container > div > img {
+    width:60%;
+    height: 60%;
 }
 
 .recipe-container > p {
