@@ -3,6 +3,8 @@ import Banner from './components/banner/banner'
 import styles from './App.module.css'
 import Info from './components/info/info'
 import Slider from './components/slider/slider'
+import CoffeeTypizer from './components/coffee-typizer/coffee-typizer'
+import Footer from './components/footer/footer'
 
 function App() {
   return (
@@ -10,8 +12,10 @@ function App() {
       <UpperMenu></UpperMenu>
       <div className={styles['main']}>
         <Banner></Banner>
-        <Info></Info>
         <Slider></Slider>
+        <Info></Info>
+        <CoffeeTypizer></CoffeeTypizer>
+        <Footer></Footer>
       </div>
     </>
   )

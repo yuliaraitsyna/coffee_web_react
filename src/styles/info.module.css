@@ -9,8 +9,8 @@
 .img {
     background-image: url(../assets/coffee-bag.png);
     background-size:contain;
-    width:200px;
-    height:200px;
+    width:180px;
+    height:160px;
     align-self: center;
     margin-right: 5%;
 }
@@ -24,9 +24,49 @@ p {
     text-align: justify;
 }
 
+.text > h2 {
+    font-family: "Quicksand", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    color:black;
+}
+
 @media (min-width:600px) {
     .img {
         width:250px;
         height:250px;
+    }
+}
+
+@media (max-width: 400px) {
+    .container {
+        flex-direction: column;
+    }
+    .img {
+        background-image: url(../assets/coffee-bag.png);
+        background-size:contain;
+        width:150px;
+        height:150px;
+        align-self: center;
+        margin-right: 5%;
+    }
+    
+    .text {
+        width:90%;
+        padding:5%;
+    }
+}
+
+.fade-in {
+    animation: fadeIn 1s ease-in-out forwards;
+    opacity: 0;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
     }
 }

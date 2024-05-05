@@ -1,5 +1,24 @@
 {
     "info_section": {
         "text": "Coffee is a brewed drink made from roasted coffee beans, which are the seeds of berries from the Coffea plant. The coffee plant is native to subtropical regions of Africa and Asia. The two most commonly grown and commercially important species are Coffea arabica and Coffea robusta."
+    },
+
+    "types": [
+        {
+            "text": "Something nice and tasty for cooling down during the hot weather. A drink may bring you to summer",
+            "img": "https://cdn-icons-png.flaticon.com/128/2529/2529995.png"
+        },
+        {
+            "text": "Milk is so different: vegan, cow milk, etc. Milky drinks are always so delicious and comfy",
+            "img": "https://cdn-icons-png.flaticon.com/128/112/112431.png"
+        },
+        {
+            "text": "Autumn or winter... So cold that you want something heating and comforting. A hot drink can assist you then",
+            "img": "https://cdn-icons-png.flaticon.com/128/3011/3011186.png"
+        }
+    ],
+
+    "footer" : {
+        "text": "Coffee Explorer is a website created from issue of choosing what to drink. It easy to click the button and get a perfect drink and... it's recipe! Have a good experience!"
     }
 }

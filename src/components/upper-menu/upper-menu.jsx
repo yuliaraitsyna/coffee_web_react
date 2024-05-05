@@ -5,13 +5,13 @@ export default function UpperMenu() {
         <div className={styles['menu-container']}>
             <div className={styles['links']}>
                 <span className={styles['logo']}></span>
-                <a className={styles['link']} href='/src/menu/'>Menu</a>
-                <a className={styles['link']} href='/src/generator/'>Generator</a>
-                <a className={styles['link']} href='/src/about/'>About</a>
+                <a className={styles['link']} href='/coffee_web_react/src/menu/'>Menu</a>
+                <a className={styles['link']} href='/coffee_web_react/src/generator/'>Generator</a>
+                <a className={styles['link']} href='/coffee_web_react/src/about/'>About</a>
             </div>
 
             <button className={styles['login-btn']}>
-                <a href='/src/login/'>Login</a>
+                <a href='/coffee_web_react/src/login/'>Login</a>
             </button>
             
         </div>

@@ -48,6 +48,9 @@
 .login-btn > a {
     color:white;
     text-decoration: none;
+    font-family: "Quicksand", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
 }
 
 .link {
@@ -67,7 +70,11 @@
     flex-direction: row;
     align-items: center;
     justify-content: flex-start;
+    gap:10px;
     width:70%;
+    font-family: "Quicksand", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
 }
 
 @media (max-width:350px) {
