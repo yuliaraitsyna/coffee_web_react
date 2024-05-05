@@ -15,15 +15,15 @@
 }
 
 ::-webkit-scrollbar {
-    width: 0px;
-  }
+    display: none;
+}
 
 .recipes-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     place-items: center;
     gap:5%;
-    overflow:auto;
+    overflow-y:auto;
 }
 
 @media (max-width: 650px) {
