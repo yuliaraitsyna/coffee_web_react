@@ -10,7 +10,6 @@ export default function UpperMenu() {
                 <Link className={styles['link']} to='/coffee_web_react/generator'>Generator</Link>
                 <Link className={styles['link']} to='/coffee_web_react/about'>About</Link>
             </div>
-
             <div className={styles['login-btn']}>
                 <Link to='/login'>Login</Link>
             </div>
