@@ -1,0 +1,61 @@
+.recipe-modal-container {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: none;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #F0F0F0;
+    width: 50vw;
+    max-width: 350px;
+    min-width: 300px;
+    height: 80vh;
+    max-height:400px;
+    z-index: 2;
+    padding: 1%;
+}
+
+.recipe-info-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width:calc(100% - 100px);
+    height: 85%;
+    padding: 3%;
+    margin: 6%;
+    overflow-y: scroll;
+}
+
+.recipe-info-container > h2 {
+    font-family: "Quicksand", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    color:black;
+    margin:0;
+}
+
+.closer {
+    color:grey;
+    text-align: end;
+    position: fixed;
+    top:-1%;
+    right:-1%;
+}
+
+.recipe-modal-container > img {
+    width:30%;
+    margin: 5%;
+}
+
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.153);
+    z-index: 1;
+}
