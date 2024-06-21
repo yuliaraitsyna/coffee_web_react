@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import data from "../../data/menu.json";
 import styles from './randomizer.module.css';
+import ErrorBoundary from "../errorhandler/errorboundary";
 
 export default function Randomizer() {
     const [index, setIndex] = useState(0);
@@ -14,10 +15,14 @@ export default function Randomizer() {
         if (items.length > 0) {
             setIndex(Math.floor(Math.random() * items.length));
         }
+        else {
+            throw new Error("No items were found");
+        }
     };
 
     return (
-        <div className={styles["randomizer"]}>
+        <ErrorBoundary>
+            <div className={styles["randomizer"]}>
             <h2 className={styles["text"]}>Drink Randomizer</h2>
             <div className={styles["img"]}>
                 {items.length > 0 && items[index].img ? (
@@ -27,6 +32,7 @@ export default function Randomizer() {
                 )}
             </div>
             <button onClick={handleClick}>Click to choose</button>
-        </div>
+           </div>
+        </ErrorBoundary>
     );
 }
